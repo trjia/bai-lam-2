@@ -1,11 +1,19 @@
 """
 --- debai 
-Viet python ham hi()
-Tra ve cau chao 'Hi'
+Viet python ham hi(name)
+Tra ve cau chao 'Hi {name}'
 
 --- input 
-(ko co)
+hi(name)
 
---- output 
-Hi!
+--- output
+Hi {name}
+
+--- ví dụ
+hi('AI-BTX')
+
+output
+Hi AI-BTX
 """
+def hi(name):
+ return f'Hi {name}'
